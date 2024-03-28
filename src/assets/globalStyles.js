@@ -25,6 +25,10 @@ const GlobalStyle = createGlobalStyle`
     src: url(./fonts/allerta-stencil-latin-400-normal.woff2);
   }
 
+  body {
+    font-family: 'DM Sans' sans-serif;
+  }
+
   .container {
     max-width: 78rem;
     margin: 0 auto;
