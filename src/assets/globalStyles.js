@@ -24,6 +24,12 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     src: url(./fonts/allerta-stencil-latin-400-normal.woff2);
   }
+
+  .container {
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 `;
 
 export default GlobalStyle;
