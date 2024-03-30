@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <div className="header__left-part">
-        <div class="header__logo"><span class="header__logo-first-letter">S</span>hoppe</div>
+        <div className="header__logo">Shoppe</div>
       </div>
       <div className="header__right-part">
         <nav>

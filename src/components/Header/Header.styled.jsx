@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledHeader = styled`
+const StyledHeader = styled.div`
 
 `;
 
