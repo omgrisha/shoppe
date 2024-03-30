@@ -1,5 +1,5 @@
 import { Reset } from 'styled-reset';
-import GlobalStyle from './assets/globalStyles';
+import GlobalStyle from './assets/styles/globalStyles';
 
 const App = () => {
   return (
