@@ -23,11 +23,9 @@ export const Logo = styled.div`
   }
 `;
 
-export const Nav = styled.nav`
-  ul {
-    display: flex;
-    gap: 4rem;
-  }
+export const NavList = styled.ul`
+  display: flex;
+  gap: 4rem;
 `;
 
 export const Separator = styled.div`
