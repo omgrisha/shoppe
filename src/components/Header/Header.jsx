@@ -1,8 +1,8 @@
 import StyledHeader from './Header.styled';
 
-import './search.svg';
-import './cart.svg';
-import './profile.svg';
+import search from './search.svg';
+import cart from './cart.svg';
+import profile from './profile.svg';
 
 const Header = () => {
   return (
@@ -12,18 +12,24 @@ const Header = () => {
       </div>
       <div className="header__right-part">
         <nav>
-          <ul>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Our Story</a></li>
+          <ul className="header__nav-list">
+            <li><a href="#" className="heading-5">Shop</a></li>
+            <li><a href="#" className="heading-5">Blog</a></li>
+            <li><a href="#" className="heading-5">Our Story</a></li>
           </ul>
         </nav>
-        <div className="header__separator" />
-        <div className="header__icons">
-          <div><img src="./search.svg" alt="Search" /></div>
-          <div><img src="./cart.svg" alt="Cart" /></div>
-          <div><img src="./profile.svg" alt="Profile" /></div>
-        </div>
+        <div className="header__separator"></div>
+        <ul className="header__icons">
+          <li>
+            <a href="#"><img src={search} alt="Search" /></a>
+          </li>
+          <li>
+            <a href="#"><img src={cart} alt="Cart" /></a>
+          </li>
+          <li>
+            <a href="#"><img src={profile} alt="Profile" /></a>
+          </li>
+        </ul>
       </div>
     </StyledHeader>
   )
