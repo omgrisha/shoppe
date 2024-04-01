@@ -10,7 +10,7 @@ const StyledHeader = styled.div`
     text-decoration: none;
   }
 
-  &,
+  .container,
   .header__right-part,
   .header__nav-list,
   .header__icons {
