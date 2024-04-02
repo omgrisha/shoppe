@@ -1,4 +1,4 @@
-import StyledHeader, { Icons, Logo, Nav, NavList, Separator } from './Header.styled';
+import StyledHeader, { Icons, Logo, NavList, Separator } from './Header.styled';
 
 import search from './search.svg';
 import cart from './cart.svg';
@@ -9,7 +9,7 @@ const Header = () => {
     <StyledHeader>
       <div className="container flex">
         <Logo>Shoppe</Logo>
-        <div class="flex">
+        <div className="flex">
           <nav>
             <NavList>
               <li><a href="#" className="heading-5">Shop</a></li>
