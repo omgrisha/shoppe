@@ -17,6 +17,7 @@ export const Logo = styled.div`
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 2.1875rem;
   line-height: 1.18;
+  text-transform: uppercase;
 
   &::first-letter {
     color: ${ACCENT_COLOR_LIGHT};
