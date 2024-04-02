@@ -31,11 +31,6 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.6875;
   }
 
-  .heading-5 + .heading-5,
-  .body-small + .body-small {
-    margin-top: 0.625rem;
-  }
-
   .body-large {
     font-weight: 700;
   }
