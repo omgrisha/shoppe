@@ -7,7 +7,7 @@ const StyledHome = styled.div`
   padding: 64px 0 90px 0;
 `;
 
-const Home = () => {
+export const Home = () => {
   return (
     <StyledHome>
       <Header />
@@ -15,5 +15,3 @@ const Home = () => {
     </StyledHome>
   );
 };
-
-export { Home };

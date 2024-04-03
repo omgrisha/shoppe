@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { BLACK_COLOR_LIGHT, DARK_GRAY_COLOR_LIGHT, GRAY_COLOR_LIGHT } from '../../assets/styles/vars';
 
-const StyledFooter = styled.footer`
+export const StyledFooter = styled.footer`
   border-top: 1px solid ${GRAY_COLOR_LIGHT};
   padding-top: 1.5rem;
   color: ${DARK_GRAY_COLOR_LIGHT};
@@ -22,8 +22,6 @@ const StyledFooter = styled.footer`
     gap: 3.125rem;
   }
 `;
-
-export { StyledFooter };
 
 export const Links = styled.ul`
   display: flex;

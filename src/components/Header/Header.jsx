@@ -4,7 +4,7 @@ import search from './search.svg';
 import cart from './cart.svg';
 import profile from './profile.svg';
 
-const Header = () => {
+export const Header = () => {
   return (
     <StyledHeader>
       <div className='container flex'>
@@ -40,5 +40,3 @@ const Header = () => {
     </StyledHeader>
   )
 };
-
-export { Header };

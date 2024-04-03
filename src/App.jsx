@@ -1,7 +1,7 @@
 import { Reset } from 'styled-reset';
 import GlobalStyle from './assets/styles/globalStyles';
 
-const App = () => {
+export const App = () => {
   return (
     <>
       <Reset />
@@ -9,5 +9,3 @@ const App = () => {
     </>
   );
 };
-
-export default App;

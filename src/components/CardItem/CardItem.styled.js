@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledCardItem = styled.div`
+export const StyledCardItem = styled.div`
   min-width: 300px;
   width: 300px;
 
@@ -52,5 +52,3 @@ const StyledCardItem = styled.div`
     }
   }
 `;
-
-export { StyledCardItem };

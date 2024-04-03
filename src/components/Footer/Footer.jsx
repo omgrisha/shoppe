@@ -6,7 +6,7 @@ import instagram from './instagram.svg';
 import twitter from './twitter.svg';
 import arrow from './arrow.svg';
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <StyledFooter className='heading-5'>
       <div className='container'>
@@ -50,5 +50,3 @@ const Footer = () => {
     </StyledFooter>
   );
 };
-
-export { Footer };

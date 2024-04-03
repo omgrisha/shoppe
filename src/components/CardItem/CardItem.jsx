@@ -1,6 +1,6 @@
 import StyledCardItem from './CardItem.styled';
 
-const CardItem = ({ title, imageSrc, price, badgeTitle }) => {
+export const CardItem = ({ title, imageSrc, price, badgeTitle }) => {
   return (
     <StyledCardItem>
       <div className='card-image'>
@@ -17,5 +17,3 @@ const CardItem = ({ title, imageSrc, price, badgeTitle }) => {
     </StyledCardItem>
   );
 };
-
-export { CardItem };

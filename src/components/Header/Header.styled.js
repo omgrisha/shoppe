@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { BLACK_COLOR_LIGHT, ACCENT_COLOR_LIGHT, DARK_GRAY_COLOR_LIGHT } from '../../assets/styles/vars';
 
-const StyledHeader = styled.div`
+export const StyledHeader = styled.div`
   color: ${BLACK_COLOR_LIGHT};
   
   a {
@@ -10,8 +10,6 @@ const StyledHeader = styled.div`
     text-decoration: none;
   }
 `;
-
-export { StyledHeader };
 
 export const Logo = styled.div`
   font-family: 'Allerta Stencil', sans-serif;
