@@ -7,31 +7,31 @@ import profile from './profile.svg';
 const Header = () => {
   return (
     <StyledHeader>
-      <div className="container flex">
+      <div className='container flex'>
         <Logo>Shoppe</Logo>
-        <div className="flex">
+        <div className='flex'>
           <nav>
             <NavList>
-              <li><a href="#" className="heading-5">Shop</a></li>
-              <li><a href="#" className="heading-5">Blog</a></li>
-              <li><a href="#" className="heading-5">Our Story</a></li>
+              <li><a href='#' className='heading-5'>Shop</a></li>
+              <li><a href='#' className='heading-5'>Blog</a></li>
+              <li><a href='#' className='heading-5'>Our Story</a></li>
             </NavList>
           </nav>
           <Separator />
-          <Icons className="flex">
+          <Icons className='flex'>
             <li>
-              <a href="#">
-                <img src={search} alt="Search" />
+              <a href='#'>
+                <img src={search} alt='Search' />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src={cart} alt="Cart" />
+              <a href='#'>
+                <img src={cart} alt='Cart' />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src={profile} alt="Profile" />
+              <a href='#'>
+                <img src={profile} alt='Profile' />
               </a>
             </li>
           </Icons>
