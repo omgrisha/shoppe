@@ -1,4 +1,4 @@
-import StyledFooter, { Links, Icons, Form, Input, Submit } from './Footer.styled';
+import { StyledFooter, Links, Icons, Form, Input, Submit } from './Footer.styled';
 
 import linkedIn from './linkedin.svg';
 import facebook from './facebook.svg';
