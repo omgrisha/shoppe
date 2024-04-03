@@ -1,19 +1,20 @@
-import { StyledCardItem } from './CardItem.styled';
+import { StyledCardItem, Wrapper, Details, Image, Badge, Title, Price } from './CardItem.styled';
 
-export const CardItem = ({ title, imageSrc, price, badgeTitle }) => {
+export const CardItem = ({ href, image, badgeTitle, title, price }) => {
   return (
-    <StyledCardItem>
-      <div className='card-image'>
-        <img src={imageSrc} alt='' />
+    <StyledCardItem href={href}>
+      <article>
+        <Wrapper>
+          <Image src={image} alt='' />
 
-        {badgeTitle && <div className='badge'>{badgeTitle}</div>}
-      </div>
+          {badgeTitle && <Badge className='body-small'>{badgeTitle}</Badge>}
+        </Wrapper>
 
-      <footer>
-        <h3 className='card-title'>{title}</h3>
-
-        <p className='card-price'>{price}</p>
-      </footer>
+        <Details className='heading-3'>
+          <Title>{title}</Title>
+          <Price>{price}</Price>
+        </Details>
+      </article>
     </StyledCardItem>
   );
 };

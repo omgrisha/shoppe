@@ -1,54 +1,56 @@
 import styled from "styled-components";
 
-export const StyledCardItem = styled.div`
-  min-width: 300px;
-  width: 300px;
+import { ACCENT_COLOR_LIGHT, BLACK_COLOR_LIGHT, WHITE_COLOR_LIGHT } from '../../assets/styles/vars';
+
+export const StyledCardItem = styled.a`
+  display: block;
+  width: 18.75rem;
+  text-decoration: none;
 
   transition: filter 0.15s ease-in;
 
   &:hover {
-    filter: brightness(0.6);
+    filter: brightness(0.9);
   }
+`;
 
-  .card-image {
-    position: relative;
-    cursor: pointer;
+export const Wrapper = styled.div`
+  position: relative;
+`;
 
-    .badge {
-      position: absolute;
-      top: 16px;
-      left: 16px;
-      padding: 2px 8px;
-      background-color: brown;
-      color: #fff;
-      font-size: 12px;
-      border-radius: 4px;
-    }
-  }
+export const Image = styled.img`
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+`;
 
-  img {
-    max-width: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
+export const Badge = styled.div`
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.125rem 0.5rem;
+  background-color: ${ACCENT_COLOR_LIGHT};
+  color: ${WHITE_COLOR_LIGHT};
+  border-radius: 0.25rem;
+`;
 
-  footer {
-    margin-top: 24px;
-    font-size: 20px;
-  }
+export const Details = styled.div`
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+`;
 
-  .card-title {
-    margin-bottom: 16px;
-    cursor: pointer;
-  }
+export const Title = styled.div`
+  color: ${BLACK_COLOR_LIGHT};
+`;
 
-  .card-price {
-    color: brown;
+export const Price = styled.div`
+  color: ${ACCENT_COLOR_LIGHT};
 
-    &:before {
-      content: "$";
-      display: inline-block;
-      margin-right: 0.5ch;
-    }
+  &:before {
+    content: '$';
+    display: inline-block;
+    margin-right: 0.5ch;
   }
 `;
