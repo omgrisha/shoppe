@@ -23,7 +23,7 @@ const StyledFooter = styled.footer`
   }
 `;
 
-export default StyledFooter;
+export { StyledFooter };
 
 export const Links = styled.ul`
   display: flex;

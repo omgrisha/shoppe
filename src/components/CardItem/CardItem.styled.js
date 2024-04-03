@@ -53,4 +53,4 @@ const StyledCardItem = styled.div`
   }
 `;
 
-export default StyledCardItem;
+export { StyledCardItem };

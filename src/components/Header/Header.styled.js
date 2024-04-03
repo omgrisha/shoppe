@@ -11,7 +11,7 @@ const StyledHeader = styled.div`
   }
 `;
 
-export default StyledHeader;
+export { StyledHeader };
 
 export const Logo = styled.div`
   font-family: 'Allerta Stencil', sans-serif;
