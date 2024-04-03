@@ -1,4 +1,4 @@
-import StyledHeader, { Icons, Logo, NavList, Separator } from './Header.styled';
+import { StyledHeader, Icons, Logo, NavList, Separator } from './Header.styled';
 
 import search from './search.svg';
 import cart from './cart.svg';
