@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { BLACK_COLOR_LIGHT, DARK_GRAY_COLOR_LIGHT, GRAY_COLOR_LIGHT } from '../../assets/styles/vars';
 
 export const StyledFooter = styled.footer`
+  margin-top: 15.625rem;
   border-top: 1px solid ${GRAY_COLOR_LIGHT};
   padding-top: 1.5rem;
   color: ${DARK_GRAY_COLOR_LIGHT};
