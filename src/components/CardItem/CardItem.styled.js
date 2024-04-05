@@ -4,7 +4,6 @@ import { ACCENT_COLOR_LIGHT, BLACK_COLOR_LIGHT, WHITE_COLOR_LIGHT } from '../../
 
 export const StyledCardItem = styled.a`
   display: block;
-  width: 18.75rem;
   text-decoration: none;
 
   transition: filter 0.15s ease-in;
