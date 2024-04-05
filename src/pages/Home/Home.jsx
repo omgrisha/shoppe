@@ -10,11 +10,11 @@ export const Home = () => {
   return (
     <StyledHome>
       <Header />
-      <div className="container">
+      <div className='container'>
         <Latest>
           <header className='flex'>
             <Heading className='heading-1'>Shop The Latest</Heading>
-            <ViewAll className='heading-4'><a href="#">View all</a></ViewAll>
+            <ViewAll className='heading-4'><a href='#'>View all</a></ViewAll>
           </header>
           <Products>
             {products.map((product, index) => (
