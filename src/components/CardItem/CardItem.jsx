@@ -1,8 +1,8 @@
 import { StyledCardItem, Wrapper, Details, Image, Badge, Title, Price } from './CardItem.styled';
 
-export const CardItem = ({ href, image, badgeTitle, title, price }) => {
+export const CardItem = ({ href, image, badgeTitle, title, price, width }) => {
   return (
-    <StyledCardItem href={href}>
+    <StyledCardItem href={href} $width={width}>
       <article>
         <Wrapper>
           <Image src={image} alt='' />
