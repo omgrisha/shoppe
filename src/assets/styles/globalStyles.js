@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   /* Text styles */
 
   .heading-1, .heading-4 {
@@ -63,5 +63,3 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
   }
 `;
-
-export default GlobalStyle;
