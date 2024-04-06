@@ -3,6 +3,10 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   /* Text styles */
 
+  * {
+    box-sizing: border-box;
+  }
+
   .heading-1, .heading-4 {
     font-weight: 500;
     line-height: 1.3;
