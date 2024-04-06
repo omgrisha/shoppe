@@ -32,7 +32,7 @@ export const Badge = styled.div`
   border-radius: 0.25rem;
 `;
 
-export const Details = styled.div`
+export const Info = styled.div`
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;

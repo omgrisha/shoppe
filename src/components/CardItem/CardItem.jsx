@@ -10,10 +10,10 @@ export const CardItem = ({ href, image, badgeTitle, title, price, width }) => {
           {badgeTitle && <Badge className='body-small'>{badgeTitle}</Badge>}
         </Wrapper>
 
-        <Details className='heading-3'>
+        <Info className='heading-3'>
           <Title>{title}</Title>
           <Price>{price}</Price>
-        </Details>
+        </Info>
       </article>
     </StyledCardItem>
   );
