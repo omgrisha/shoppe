@@ -17,7 +17,7 @@ export const ViewAll = styled.h3`
     color: ${({ theme }) => theme.light.accent};
     text-decoration: none;
   }
-`
+`;
 
 export const Products = styled.div`
   margin-top: 2.4375rem;
