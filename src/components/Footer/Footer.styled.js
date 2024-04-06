@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
-import { BLACK_COLOR_LIGHT, DARK_GRAY_COLOR_LIGHT, GRAY_COLOR_LIGHT } from '../../assets/styles/vars';
-
 export const StyledFooter = styled.footer`
   margin-top: 15.625rem;
-  border-top: 1px solid ${GRAY_COLOR_LIGHT};
+  border-top: 1px solid ${({ theme }) => theme.light.gray};
   padding-top: 1.5rem;
-  color: ${DARK_GRAY_COLOR_LIGHT};
+  color: ${({ theme }) => theme.light.darkGray};
   
   a {
     color: inherit;    
@@ -34,7 +32,7 @@ export const Form = styled.form`
   display: flex;
   flex: 1;
   max-width: 24.75rem;
-  border-bottom: 1px solid ${BLACK_COLOR_LIGHT};
+  border-bottom: 1px solid ${({ theme }) => theme.light.black};
 `;
 
 export const Input = styled.input`

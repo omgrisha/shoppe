@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import { ACCENT_COLOR_LIGHT, BLACK_COLOR_LIGHT, WHITE_COLOR_LIGHT } from '../../assets/styles/vars';
-
 export const StyledCardItem = styled.a`
   display: block;
   width: ${({ $width }) => $width};
@@ -29,8 +27,8 @@ export const Badge = styled.div`
   top: 1rem;
   left: 1rem;
   padding: 0.125rem 0.5rem;
-  background-color: ${ACCENT_COLOR_LIGHT};
-  color: ${WHITE_COLOR_LIGHT};
+  background-color: ${({ theme }) => theme.light.accent};
+  color: ${({ theme }) => theme.light.white};
   border-radius: 0.25rem;
 `;
 
@@ -42,11 +40,11 @@ export const Details = styled.div`
 `;
 
 export const Title = styled.div`
-  color: ${BLACK_COLOR_LIGHT};
+  color: ${({ theme }) => theme.light.black};
 `;
 
 export const Price = styled.div`
-  color: ${ACCENT_COLOR_LIGHT};
+  color: ${({ theme }) => theme.light.accent};
 
   &:before {
     content: '$';

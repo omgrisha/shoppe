@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import { BLACK_COLOR_LIGHT, ACCENT_COLOR_LIGHT } from '../../assets/styles/vars';
-
 export const StyledHome = styled.div`
   padding: 64px 0 90px 0;
 `;
@@ -11,12 +9,12 @@ export const Latest = styled.section`
 `;
 
 export const Heading = styled.h2`
-  color: ${BLACK_COLOR_LIGHT};
+  color: ${({ theme }) => theme.light.black};
 `;
 
 export const ViewAll = styled.h3`
   a {
-    color: ${ACCENT_COLOR_LIGHT};
+    color: ${({ theme }) => theme.light.accent};
     text-decoration: none;
   }
 `
