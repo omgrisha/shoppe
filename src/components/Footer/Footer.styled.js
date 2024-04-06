@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const StyledFooter = styled.footer`
   margin-top: 15.625rem;
-  border-top: 1px solid ${({ theme }) => theme.light.gray};
+  border-top: 1px solid ${({ theme }) => theme.colors.light.gray};
   padding-top: 1.5rem;
-  color: ${({ theme }) => theme.light.darkGray};
+  color: ${({ theme }) => theme.colors.light.darkGray};
   
   a {
     color: inherit;    
@@ -32,7 +32,7 @@ export const Form = styled.form`
   display: flex;
   flex: 1;
   max-width: 24.75rem;
-  border-bottom: 1px solid ${({ theme }) => theme.light.black};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.light.black};
 `;
 
 export const Input = styled.input`

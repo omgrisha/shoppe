@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.div`
-  color: ${({ theme }) => theme.light.black};
+  color: ${({ theme }) => theme.colors.light.black};
   
   a {
     color: inherit;
@@ -16,7 +16,7 @@ export const Logo = styled.div`
   text-transform: uppercase;
 
   &::first-letter {
-    color: ${({ theme }) => theme.light.accent};
+    color: ${({ theme }) => theme.colors.light.accent};
   }
 `;
 
@@ -29,7 +29,7 @@ export const Separator = styled.div`
   height: 1rem;
   width: 1px;
   margin: 0 3rem;
-  background-color: ${({ theme }) => theme.light.darkGray};
+  background-color: ${({ theme }) => theme.colors.light.darkGray};
 `;
 
 export const Icons = styled.ul`

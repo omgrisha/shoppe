@@ -9,12 +9,12 @@ export const Latest = styled.section`
 `;
 
 export const Heading = styled.h2`
-  color: ${({ theme }) => theme.light.black};
+  color: ${({ theme }) => theme.colors.light.black};
 `;
 
 export const ViewAll = styled.h3`
   a {
-    color: ${({ theme }) => theme.light.accent};
+    color: ${({ theme }) => theme.colors.light.accent};
     text-decoration: none;
   }
 `;

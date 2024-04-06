@@ -27,8 +27,8 @@ export const Badge = styled.div`
   top: 1rem;
   left: 1rem;
   padding: 0.125rem 0.5rem;
-  background-color: ${({ theme }) => theme.light.accent};
-  color: ${({ theme }) => theme.light.white};
+  background-color: ${({ theme }) => theme.colors.light.accent};
+  color: ${({ theme }) => theme.colors.light.white};
   border-radius: 0.25rem;
 `;
 
@@ -40,11 +40,11 @@ export const Info = styled.div`
 `;
 
 export const Title = styled.div`
-  color: ${({ theme }) => theme.light.black};
+  color: ${({ theme }) => theme.colors.light.black};
 `;
 
 export const Price = styled.div`
-  color: ${({ theme }) => theme.light.accent};
+  color: ${({ theme }) => theme.colors.light.accent};
 
   &:before {
     content: '$';
