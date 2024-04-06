@@ -1,4 +1,4 @@
-import { StyledCardItem, Wrapper, Details, Image, Badge, Title, Price } from './CardItem.styled';
+import { StyledCardItem, Wrapper, Info, Image, Badge, Title, Price } from './CardItem.styled';
 
 export const CardItem = ({ href, image, badgeTitle, title, price, width }) => {
   return (
